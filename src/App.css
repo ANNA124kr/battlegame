@@ -1,0 +1,112 @@
+
+.App {
+  text-align: center;
+  user-select: none;
+  font-size: 18px;
+  margin-top: 75px;
+}
+body{
+  background-color: #006F56;
+}
+
+h1,h2 ,p{
+  color: #d3e7db;
+}
+
+.play{
+  display: grid;
+  grid-template-columns: 20% 15% 20%;
+  grid-template-rows: 20% 70% 20%;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.user{
+  grid-column-start: -2;
+  grid-column-end: -1;
+  grid-row-start: -2;
+  grid-row-end: -1;
+  align-self: center;
+}
+
+.deck{
+  grid-column-start: -2;
+  grid-column-end: -1;
+  align-self: center;
+  justify-self: flex-start;
+  cursor: pointer;
+}
+
+.card{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-self: center;
+  align-self: center;
+}
+
+.count{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-self: center;
+}
+
+.point{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  align-self: center;
+}
+
+.computer{
+  align-self: center;
+}
+
+.playeName{
+  color: #FDFD96;
+}
+
+input{
+  padding: 10px;
+  border: 0;
+  margin: 10px;
+  outline: 0;
+  font-size: large;
+  border-radius: 8px;
+}
+
+button{
+  cursor: pointer;
+  font-size: large;
+  background-color:#00403181;
+  color: #FDFD96;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  width: fit-content;
+  border-radius: 0;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  user-select: none;
+}
+
+button:hover {
+  background: #2ebea667;
+}
+
+.PlayerUserDiv{
+
+  border-radius: 8px;
+  text-align: center;
+  width: 500px;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00403181 ;
+  
+  margin: auto;
+  margin-bottom: 10px;
+}
