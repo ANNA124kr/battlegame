@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/battlegame/static/css/main.9e3a9bdd.css",
-    "main.js": "/battlegame/static/js/main.0206ae1b.js",
+    "main.css": "/battlegame/static/css/main.666a5b88.css",
+    "main.js": "/battlegame/static/js/main.97b21ad4.js",
     "static/js/787.b270856b.chunk.js": "/battlegame/static/js/787.b270856b.chunk.js",
     "static/media/wallCard.jpg": "/battlegame/static/media/wallCard.7e7baf42279bb6b8557a.jpg",
     "index.html": "/battlegame/index.html",
-    "main.9e3a9bdd.css.map": "/battlegame/static/css/main.9e3a9bdd.css.map",
-    "main.0206ae1b.js.map": "/battlegame/static/js/main.0206ae1b.js.map",
+    "main.666a5b88.css.map": "/battlegame/static/css/main.666a5b88.css.map",
+    "main.97b21ad4.js.map": "/battlegame/static/js/main.97b21ad4.js.map",
     "787.b270856b.chunk.js.map": "/battlegame/static/js/787.b270856b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e3a9bdd.css",
-    "static/js/main.0206ae1b.js"
+    "static/css/main.666a5b88.css",
+    "static/js/main.97b21ad4.js"
   ]
 }
